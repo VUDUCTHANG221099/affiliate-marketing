@@ -1,0 +1,31 @@
+.utility-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.utility-button {
+  background-color: #06c;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.utility-button:first-child {
+  margin-left: 0;
+}
+
+.utility-button:hover {
+  background-color: #005ca9;
+}
+
+.utility-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+}

@@ -1,0 +1,27 @@
+.item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  white-space: nowrap; /* Ngăn không xuống dòng */
+  overflow: hidden; /* Ẩn phần dư thừa */
+  text-overflow: ellipsis; /* Thêm dấu ba chấm (...) nếu nội dung quá dài */
+}
+
+.item p {
+  color: #555;
+}
+
+.item a {
+  color: #06c;
+  text-decoration: none;
+}
