@@ -8,7 +8,8 @@ const Item = ({ product }) => {
             <a href={product.product_link} target="_blank" rel="noopener noreferrer">
                 <img src={`${baseUrl}${product.image}`} alt={product.name} />
                 <h3 >{product.name}</h3>
-                <p>{product.price}.000 VNĐ</p>
+                <p>{product.price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</p>
+
 
             </a>
         </div>
